@@ -1,11 +1,11 @@
-# 🔐 Servlet & JSP Authentication System
+#  Servlet & JSP Authentication System
 
 A raw Java Web Application demonstrating the **MVC (Model-View-Controller)** architecture, implementing a full **User Authentication** flow using standard Java technologies.
 
-## 🚀 Project Overview
+##  Project Overview
 This project was built to understand the core concepts of Java Backend Development before moving to frameworks like Spring Boot. It handles HTTP requests, manages user sessions manually, and connects to a relational database using JDBC.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Language:** Java 17+
 * **Backend:** Java Servlets (Controller), JDBC (Data Access)
 * **Frontend:** JSP (View), HTML, CSS
@@ -13,7 +13,7 @@ This project was built to understand the core concepts of Java Backend Developme
 * **Server:** Apache Tomcat 9/10
 * **IDE:** Eclipse Enterprise
 
-## ✨ Key Features
+##  Key Features
 * **MVC Pattern:** Clean separation between Logic (Servlet), Data (DAO), and UI (JSP).
 * **Database Connectivity:** Uses JDBC to validate users against `Users_DB`.
 * **Session Management:**
@@ -22,7 +22,7 @@ This project was built to understand the core concepts of Java Backend Developme
     * Prevents unauthorized access to the Welcome page.
     * Disables browser caching to secure logout (User cannot press "Back").
 
-## 🗄️ Database Setup
+##  Database Setup
 To run this project, create a database named `Users_DB` in MS SQL Server and run the following script:
 
 ```sql
