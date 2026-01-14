@@ -8,7 +8,7 @@ This project was built to understand the core concepts of Java Backend Developme
 ##  Tech Stack
 * **Language:** Java 17+
 * **Backend:** Java Servlets (Controller), JDBC (Data Access)
-* **Frontend:** JSP (View), HTML, CSS
+* **Frontend:** JSP (View), HTML
 * **Database:** Microsoft SQL Server
 * **Server:** Apache Tomcat 9/10
 * **IDE:** Eclipse Enterprise
@@ -27,7 +27,7 @@ To run this project, create a database named `Users_DB` in MS SQL Server and run
 
 ```sql
 CREATE TABLE users (
-    id INT IDENTITY(1,1) PRIMARY KEY,
+    id INT IDENTITY PRIMARY KEY IDENTITY,
     user_name VARCHAR(50) NOT NULL,
     password VARCHAR(50) NOT NULL
 );
