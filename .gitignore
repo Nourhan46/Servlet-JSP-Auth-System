@@ -1,0 +1,12 @@
+bin/
+build/
+*.class
+
+
+.settings/
+.classpath
+.project
+
+
+
+application.properties
